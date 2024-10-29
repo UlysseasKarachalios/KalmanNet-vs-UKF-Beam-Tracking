@@ -23,5 +23,5 @@ Check requirements.txt to install essential libraries
 ## Case study data 
 Case study data can be found in this [subdirectory](https://github.com/UlysseasKarachalios/KalmanNet-vs-UKF-Beam-Tracking/tree/main/Simulations/Beam_Tracking_Distributed)
 ## Types of state-space models in Beam-Tracking-Distributed subdirectory
-* BTD_parameters_Realistic.py : State space model using sampling/time interval D_t = 0.0001(Time interval used in [Paper1](https://github.com/UlysseasKarachalios/KalmanNet-vs-UKF-Beam-Tracking/tree/main?tab=readme-ov-file#beam-tracking-problem) )
+* BTD_parameters_Realistic.py : State space model using sampling/time interval D_t = 0.0001(Time interval used in "Beam Tracking for Distributed Millimeter-Wave Massive MIMO Systems Based on the Unscented Kalman Filter" )
 * BTD_parameters_Realistic_2.py : State space model using sampling/time interval D_t = 0.01
