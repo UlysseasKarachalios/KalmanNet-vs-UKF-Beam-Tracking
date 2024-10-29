@@ -14,14 +14,18 @@ We also use the Unscented Kalman Filter implementation from FilterPy Library
 * Github repo : https://github.com/rlabbe/filterpy
 ## Requirements 
 Check requirements.txt to install essential libraries
-## Code execution
-* main_BTD_Thesis.py : (inside the KalmanNet-vs-UKF-Beam-Tracking directory ) python main_BTD_Thesis.py or python ./main_BTD_Thesis.py
-* main_BTD_Thesis_prompt_based.py : (inside the KalmanNet-vs-UKF-Beam-Tracking directory ) main_BTD_Thesis_prompt_based.py or python ./main_BTD_Thesis_prompt_based.py
-## Main types 
-* main_BTD_Thesis.py : Execution of the thesis case studies in Subsections 4.8.1-4.8.3 (Case1 - Case3) with hardcoded parameters. Already hardcoded in the first subcase of Case3 ((sigma_r)^2 = 10e-4 ).
-* main_BTD_Thesis_prompt_based.py : Execution of the thesis case studies in Subsections 4.8.1-4.8.3 (Case1 - Case3) arbitrarily via prompt insertion.
 ## Case study data 
 Case study data can be found in this [subdirectory](https://github.com/UlysseasKarachalios/KalmanNet-vs-UKF-Beam-Tracking/tree/main/Simulations/Beam_Tracking_Distributed)
 ## Types of state-space models in Beam-Tracking-Distributed subdirectory
 * BTD_parameters_Realistic.py : State space model using sampling/time interval D_t = 0.0001(Time interval used in "Beam Tracking for Distributed Millimeter-Wave Massive MIMO Systems Based on the Unscented Kalman Filter" )
 * BTD_parameters_Realistic_2.py : State space model using sampling/time interval D_t = 0.01
+## Main types 
+* main_BTD_Thesis.py : Execution of the thesis case studies in Subsections 4.8.1-4.8.3 (Case1 - Case3) with hardcoded parameters. Already hardcoded in the first subcase of Case3 ((sigma_r)^2 = 10e-4 ).
+* main_BTD_Thesis_prompt_based.py : Execution of the thesis case studies in Subsections 4.8.1-4.8.3 (Case1 - Case3) arbitrarily via prompt insertion.
+Both Main files consider the state space model in BTD_parameters_Realistic_2.py
+## Code execution
+* main_BTD_Thesis.py : (inside the KalmanNet-vs-UKF-Beam-Tracking directory ) python main_BTD_Thesis.py or python ./main_BTD_Thesis.py
+* main_BTD_Thesis_prompt_based.py : (inside the KalmanNet-vs-UKF-Beam-Tracking directory ) main_BTD_Thesis_prompt_based.py or python ./main_BTD_Thesis_prompt_based.py
+
+
+
