@@ -13,3 +13,11 @@ The solution uses the KalmanNet implementation from paper "KalmanNet: Neural Net
 We also use the Unscented Kalman Filter implementation from FilterPy Library
 * Documentation: https://filterpy.readthedocs.io/en/latest/#
 * Github repo : https://github.com/rlabbe/filterpy
+## Code execution
+* main_BTD_Thesis.py : (inside the KalmanNet-vs-UKF-Beam-Tracking directory ) python main_BTD_Thesis.py or python ./main_BTD_Thesis.py
+* main_BTD_Thesis_prompt_based.py : (inside the KalmanNet-vs-UKF-Beam-Tracking directory ) main_BTD_Thesis_prompt_based.py or python ./main_BTD_Thesis_prompt_based.py
+## Main types 
+* main_BTD_Thesis.py : Execution of the thesis case studies in Subsections 4.8.1-4.8.3 (Case1 - Case3) with hardcoded parameters. Already hardcoded in the first subcase of Case3 ((sigma_r)^2 = 10e-4 ).
+* main_BTD_Thesis_prompt_based.py : Execution of the thesis case studies in Subsections 4.8.1-4.8.3 (Case1 - Case3) arbitrarily via prompt insertion.
+## Case study data 
+Case study data can be found in this [subdirectory](https://github.com/UlysseasKarachalios/KalmanNet-vs-UKF-Beam-Tracking/tree/main/Simulations/Beam_Tracking_Distributed)
