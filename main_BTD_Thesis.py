@@ -129,8 +129,8 @@ sys_model_filterpy_UKF.InitSequence(m1x_0, m2x_0)
 ###################################
 ### Data Loader (Generate Data) ###
 ###################################
-dataFolderName = 'Simulations/Beam_Tracking_Distributed/data' + '/'
-dataFileName = 'ThesisData4_paper_parameters_q2-5e-1_r2-1e-4'
+dataFolderName = 'Simulations/Beam_Tracking_Distributed/'
+dataFileName = 'Case3/ThesisData4_paper_parameters_q2-5e-1_r2-1e-4'
 print("Start Data Gen")
 DataGen(args, sys_model_gen, dataFolderName + dataFileName)
 print("Data Load")
