@@ -131,8 +131,8 @@ sys_model_filterpy_UKF.InitSequence(m1x_0, m2x_0)
 ###################################
 dataFolderName = 'Simulations/Beam_Tracking_Distributed/'
 dataFileName = 'Case3/ThesisData4_paper_parameters_q2-5e-1_r2-1e-4'
-print("Start Data Gen")
-DataGen(args, sys_model_gen, dataFolderName + dataFileName)
+# print("Start Data Gen")
+# DataGen(args, sys_model_gen, dataFolderName + dataFileName)
 print("Data Load")
 if args.randomLength:
    [train_input, train_target, cv_input, cv_target, test_input, test_target,train_init, cv_init, test_init, train_lengthMask,cv_lengthMask,test_lengthMask] = torch.load(dataFolderName + dataFileName, map_location=device)
