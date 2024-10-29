@@ -4,7 +4,6 @@ Solution of the Beam Tracking problem using KalmanNet network for my BSc Thesis 
 We deal with the Beam/User Tracking Problem as formulated in paper "Beam Tracking for Distributed Millimeter-Wave Massive MIMO Systems
 Based on the Unscented Kalman Filter"
 * Available at : [ieeeXplore](https://ieeexplore.ieee.org/document/9672140)
-
 ## KalmanNet code
 The solution uses the KalmanNet implementation from paper "KalmanNet: Neural Network Aided Kalman Filtering for Partially Known Dynamics" 
 * Available at : [arxiv](https://arxiv.org/abs/2107.10043)  ,  [ieeeXplore](https://ieeexplore.ieee.org/document/9733186).
@@ -21,3 +20,5 @@ We also use the Unscented Kalman Filter implementation from FilterPy Library
 * main_BTD_Thesis_prompt_based.py : Execution of the thesis case studies in Subsections 4.8.1-4.8.3 (Case1 - Case3) arbitrarily via prompt insertion.
 ## Case study data 
 Case study data can be found in this [subdirectory](https://github.com/UlysseasKarachalios/KalmanNet-vs-UKF-Beam-Tracking/tree/main/Simulations/Beam_Tracking_Distributed)
+## Requirements 
+Check requirements .txt to install essential libraries
