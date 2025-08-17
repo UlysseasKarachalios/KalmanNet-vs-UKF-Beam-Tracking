@@ -1,5 +1,5 @@
 # KalmanNet-vs-UKF-Beam-Tracking
-Solution of the Beam Tracking problem using KalmanNet network for my BSc Thesis ["Model-Based and Data-Driven Kalman Filtering"](https://pergamos.lib.uoa.gr/uoa/dl/frontend/en/browse/3422075)
+Solution of the Beam Tracking problem using KalmanNet network for my BSc Thesis ["Model-Based and Data-Driven Kalman Filtering"]([https://pergamos.lib.uoa.gr/uoa/dl/frontend/en/browse/3422075](https://pergamos.lib.uoa.gr/en/item/uoadl:3422075))
 ## Beam Tracking problem
 We deal with the Beam/User Tracking Problem as formulated in paper "Beam Tracking for Distributed Millimeter-Wave Massive MIMO Systems
 Based on the Unscented Kalman Filter"[Paper 1]
